@@ -4,6 +4,15 @@
  */
 public class GenThree {
 	public static void main(String[] args) {
-		// Put your code here	
+		int a = Integer.parseInt(args[0]);
+		int b = Integer.parseInt(args[1]);
+		int c = (int) (Math.random() * (b - a + 1) + a);
+        int d = (int) (Math.random() * (b - a + 1) + a);
+        int e = (int) (Math.random() * (b - a + 1) + a);
+		int Min = Math.min(Math.min(c,d),e);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println("The minimal generated number was " + Min );
 	}
 }
