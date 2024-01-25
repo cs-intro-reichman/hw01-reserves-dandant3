@@ -6,9 +6,9 @@ public class GenThree {
 	public static void main(String[] args) {
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
-		int c = (int) (Math.random() * (b - a + 1) + a);
-        int d = (int) (Math.random() * (b - a + 1) + a);
-        int e = (int) (Math.random() * (b - a + 1) + a);
+		int c = (int) (Math.random() * (b - a ) + a);
+        int d = (int) (Math.random() * (b - a ) + a);
+        int e = (int) (Math.random() * (b - a ) + a);
 		int Min = Math.min(Math.min(c,d),e);
 		System.out.println(c);
 		System.out.println(d);
